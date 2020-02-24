@@ -145,6 +145,7 @@ export default {
     }
   },
   mounted () {
+    console.log('view mounted')
     this.initReader()
   },
   methods: {
@@ -153,6 +154,7 @@ export default {
       // const url = 'https://s3.amazonaws.com/epubjs/books/alice/OPS/package.opf'
       const url = '/static/超级时间.epub'
       vm.book = new Epub(url)
+      console.log('vm.book', vm.book)
       vm.rendition = vm.book.renderTo('read', {
         width: window.innerWidth,
         height: window.innerHeight
