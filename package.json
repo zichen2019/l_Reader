@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "epubjs": "0.3.81",
+    "epubjs": "0.3.89",
     "sass-loader": "^7.1.0",
     "scss": "^0.2.4",
     "scss-loader": "^0.0.1",
